@@ -1,0 +1,7 @@
+---
+title: "About me"
+---
+
+![](FullSizeRender.png){width="210"}
+
+I was born and raised in Colorado where I learned to love hiking, fishing and pretty much any outdoor activity. I currently attend and play baseball for Willamette University. I am a senior in the 3+1 Masters for Data Science Program. I will graduate in May with an undergraduate degree in Data Science, and graduate in August with a Masters in Data Science. I am extremely passionate about sports, and look forward to hopefully combining my love for sports and my knowledge of data science in the future!
