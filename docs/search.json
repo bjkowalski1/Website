@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "posts/NFL_Quarterbacks_Visualization/index.html",
+    "href": "posts/NFL_Quarterbacks_Visualization/index.html",
+    "title": "The New Age of NFL Quarterbacks",
+    "section": "",
+    "text": "Shiny Link: https://dg99fd-luke-werkmeister0martin.shinyapps.io/nfl_qbs/"
+  },
+  {
+    "objectID": "posts/Tidy_Tuesday/index.html",
+    "href": "posts/Tidy_Tuesday/index.html",
+    "title": "Tidy Tuesday Visualization",
+    "section": "",
+    "text": "Code\nggplot(data = youtube, aes(year, rel_likes, fill = brand)) + \n  geom_stream(extra_span = 0.1, \n              true_range = \"both\") + \n  coord_flip()+\n  labs(title = \"What Years Were Animals Most Popular in Super Bowl Commercials? (By Brand, Years 2000-2020)\",\n       fill = \"\") + \n  ylab(\"Popularity (Ratio of Likes per View)\")+\n  scale_y_continuous(expand = c(0, 0)) + \n  scale_x_continuous(limits = c(2000, 2020), expand = c(0, 0), breaks = seq(2000, 2020, 1)) + \n  scale_fill_manual(values = c(\"#9d0208\", \"#dc2f02\", \"#f48c06\", \"#ffba08\", \"#d9ed92\", \"#f1faee\", \"#2a9d8f\", \"#0077b6\", \"#023e8a\", \"#03045e\")) + \n  theme(panel.grid.minor = element_blank(),\n        panel.grid.major.x = element_blank(),\n        panel.background = element_rect(fill = NA),\n        axis.title.x.bottom = element_text(size = 10),\n        axis.line.x = element_blank(),\n        axis.text.x = element_blank(),\n        axis.ticks.x = element_blank(),\n        strip.background = element_rect(fill = NA),\n        text = element_text(size = 10),\n        legend.spacing.x = unit(0.5, \"cm\"),\n        legend.spacing.y = unit(0.125, \"cm\"),\n        plot.caption = element_text(size = 6, lineheight = 0.3),\n        plot.title = element_text(face = \"bold\", size = 10),\n        plot.margin = margin(2, 2, 1, 2))\n\n\n\n\n\nAdapted From: Andy Baker, fivethirtyeight"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ben Kowalski’s Portfolio",
+    "section": "",
+    "text": "Shiny App\n\n\n\nA Visualization of the New Era of NFL QB’s\n\n\n\nBen Kowalski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Visualization\n\n\n\nA recreation of a TidyTuesday from March, 2021\n\n\n\nBen Kowalski\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About me",
