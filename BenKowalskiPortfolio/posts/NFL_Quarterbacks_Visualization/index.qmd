@@ -1,0 +1,11 @@
+---
+title: "The New Age of NFL Quarterbacks"
+image: nfl_logo.png
+author: "Ben Kowalski"
+description: A Visualization of the New Era of NFL QB's
+categories: Shiny App
+---
+
+This visualization was created to illustrate the turning of the tides within the quarterback position in the NFL. We were intrigued by the fall off of the veteran quarterbacks play, and wanted to see if the numbers backed up what we were seeing on the field. It felt like a new generation of quarterbacks was taking over, so we wanted to illustrate exactly what was going on within the league during the 2022 season.
+
+Shiny Link: <https://dg99fd-luke-werkmeister0martin.shinyapps.io/nfl_qbs/>
