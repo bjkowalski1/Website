@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "posts/MLB_Statcast_Table/Index.html",
+    "href": "posts/MLB_Statcast_Table/Index.html",
+    "title": "MLB Statcast Metrics",
+    "section": "",
+    "text": "Warning: package 'flextable' was built under R version 4.0.5\n\n\n\n\nbarrel_perc_factorera_factorStatisticBadGoodTotalGoodN251136%55.6%24.4%80%Col %86.2%68.8%80%Row %69.4%30.6%100%BadN459%8.9%11.1%20%Col %13.8%31.2%20%Row %44.4%55.6%100%TotalN291645%64.4%35.6%100%Col %100%100%100%Row %64.4%35.6%100%"
+  },
+  {
     "objectID": "posts/NFL_Quarterbacks_Visualization/index.html",
     "href": "posts/NFL_Quarterbacks_Visualization/index.html",
     "title": "The New Age of NFL Quarterbacks",
