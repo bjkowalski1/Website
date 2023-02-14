@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/MLB_Statcast_Table/Index.html",
       "/posts/NFL_Quarterbacks_Visualization/index.html",
       "/posts/Tidy_Tuesday/index.html"
     ]
