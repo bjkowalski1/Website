@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "posts/Interactive NFL Graphics/index.html",
+    "href": "posts/Interactive NFL Graphics/index.html",
+    "title": "NFL Interactive Graphics",
+    "section": "",
+    "text": "Code\nngs_passing = ngs_passing %>%\n  filter(season == 2022, week == 0)\n\ng = ggplot(ngs_passing, aes(x = passer_rating, y = completion_percentage_above_expectation))+\n  geom_point_interactive(aes(tooltip = player_display_name, data_id = player_display_name), size = 2, hover_nearest = TRUE)+\n  labs(title = \"A Look at the Best and Worst QB's\", subtitle = \"(2022 Season)\", x = \"Passer Rating\", y = \"Completion Percentage Above Expectation\")\n\n\nWarning in (function (mapping = NULL, data = NULL, stat = \"identity\", position\n= \"identity\", : Ignoring unknown parameters: `hover_nearest`\n\n\nCode\ngirafe(ggobj = g)"
+  },
+  {
     "objectID": "posts/MLB_Statcast_Table/Index.html",
     "href": "posts/MLB_Statcast_Table/Index.html",
     "title": "MLB Statcast Metrics",
     "section": "",
-    "text": "Warning: package 'flextable' was built under R version 4.0.5\n\n\n\n\nbarrel_perc_factorera_factorStatisticBadGoodTotalGoodN251136%55.6%24.4%80%Col %86.2%68.8%80%Row %69.4%30.6%100%BadN459%8.9%11.1%20%Col %13.8%31.2%20%Row %44.4%55.6%100%TotalN291645%64.4%35.6%100%Col %100%100%100%Row %64.4%35.6%100%"
+    "text": "Code\n#colnames(MLB_players) = c(\"Last Name\", \"First Name\", \"Player ID\", \"Year\", \"Strikeouts\", \"Strikeout Percentage\", \"ERA\", \"Opponent BA\", \"Expected BA\", \"Average Exit Velocity\", \"Average Launch Angle\", \"Barrel Batted Rate\", \"Weak Percentage\", \"Swing and Miss Percentage in Zone\", \"Swing and Miss Percentage out of Zone\", \"Meatball Percentage\", \"WHIFF Percentage\", \"First Pitch Strike Percentage\", \"Changeup Spin Rate\", \"Curveball Spin Rate\", \"Average Fastball Velocity\", \"Fastball Spin Rate\", \"ERA Factored\", \"Barrel Percentage Factored\")\n\nMLB_players %>%\n  datatable(filter = \"top\", options = list(pageLength = 10, autoWidth = TRUE))"
   },
   {
     "objectID": "posts/NFL_Quarterbacks_Visualization/index.html",
@@ -25,7 +32,7 @@
     "href": "index.html",
     "title": "Ben Kowalski’s Portfolio",
     "section": "",
-    "text": "MLB Datatable\n\n\n\nA table with MLB Pitcher Metrics\n\n\n\nBen Kowalski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App\n\n\n\nA Visualization of the New Era of NFL QB’s\n\n\n\nBen Kowalski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Visualization\n\n\n\nA recreation of a TidyTuesday from March, 2021\n\n\n\nBen Kowalski\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Interactive Graphics\n\n\n\nGraphics about NFL Quarterbacks (22-23 Season)\n\n\n\nBen Kowalski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMLB Datatable\n\n\n\nA table with MLB Pitcher Metrics\n\n\n\nBen Kowalski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShiny App\n\n\n\nA Visualization of the New Era of NFL QB’s\n\n\n\nBen Kowalski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR Visualization\n\n\n\nA recreation of a TidyTuesday from March, 2021\n\n\n\nBen Kowalski\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
